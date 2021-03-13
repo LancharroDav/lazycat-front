@@ -8,11 +8,6 @@ const Header = () => {
           </button>
         </a>
       </div>
-      {/* <div className="mr-12 place-items-center flex flex-row text-main">
-        <a>
-          <button className="hover:underline hover:text-aux">About</button>
-        </a>
-      </div> */}
     </header>
   )
 }
