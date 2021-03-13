@@ -8,8 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Footer from '../components/footer'
 import Header from '../components/header'
 
-// const mainUrl = 'http://localhost:4000/api/v1'
-const mainUrl = 'https://devreturns-api.herokuapp.com/api/v1'
+const mainUrl = 'http://localhost:4000/api/v1'
 
 export default function LandingPage() {
 
@@ -58,7 +57,7 @@ export default function LandingPage() {
             <div className="text-lg">
               <p>
                 Easy-to-use Bookmark manager where you can setup your own presets 
-                to open many links at the same time, saving time to start your journey.
+                to open many links in one click, saving time to start your journey.
               </p>
             </div>
             <div className="">
