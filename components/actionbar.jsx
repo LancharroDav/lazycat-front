@@ -7,11 +7,6 @@ const ActionBar = (props) => {
 
   const router = useRouter()
 
-  // useEffect(() => {
-  //   router.query ? props.handleShowBookmarks(router.query['q'], router.query['i']) : null
-  // }, [])
-
-
   const options = () => {
     const tagsArr = []
     props.tags.map((item) => {
