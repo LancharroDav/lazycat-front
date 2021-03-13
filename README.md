@@ -1,5 +1,7 @@
 ## LAZY CAT'S FRONT-END PROJECT
 
+Click here to check the [Lazy Cat API project](https://github.com/LancharroDav/lazycat-api)
+
 ![screenshot-dashboard](https://user-images.githubusercontent.com/49806971/111025789-c540b100-83e6-11eb-9ac1-d6dc9349322a.png)
 
 This is a demo of the original project.
