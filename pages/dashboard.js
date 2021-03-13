@@ -11,12 +11,9 @@ import useSWR from 'swr'
 
 const fetcher = (...args) => axios.get(...args, {withCredentials: true}).then(res => res.data)
 
-// const starterUrl = 'http://localhost:4000/api/v1/checks/starter.json'
-const starterUrl = 'https://devreturns-api.herokuapp.com/api/v1/checks/starter.json'
-// const mainUrl = 'http://localhost:4000/api/v1'
-const mainUrl = 'https://devreturns-api.herokuapp.com/api/v1'
-// const rootUrl = 'http://localhost:4000'
-const rootUrl = 'https://devreturns-api.herokuapp.com'
+const starterUrl = 'http://localhost:4000/api/v1/checks/starter.json'
+const mainUrl = 'http://localhost:4000/api/v1'
+const rootUrl = 'http://localhost:4000'
 
 export default function Dashboard() {
 
