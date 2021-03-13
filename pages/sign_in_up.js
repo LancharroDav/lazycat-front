@@ -5,8 +5,7 @@ import { SlowMessage } from '../components/betaphase_alerts'
 import Footer from '../components/footer'
 import Header from '../components/header'
 
-// const mainUrl = 'http://localhost:4000'
-const mainUrl = 'https://devreturns-api.herokuapp.com'
+const mainUrl = 'http://localhost:4000'
 
 export default function SignInUp() {
 
